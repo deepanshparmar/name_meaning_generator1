@@ -15,84 +15,9 @@ void words_generator(string name) {
 
     // making input characters in lower case
     for(int i = 0; i < name.length(); i++) {
-        if(name[i] == 'A') {
-            name[i] = 'a';
-            continue;
-        } else if(name[i] == 'B') {
-            name[i] = 'b';
-            continue;
-        } else if(name[i] == 'C') {
-            name[i] = 'c';
-            continue;
-        } else if(name[i] == 'D') {
-            name[i] = 'd';
-            continue;
-        } else if(name[i] == 'E') {
-            name[i] = 'e';
-            continue;
-        } else if(name[i] == 'F') {
-            name[i] = 'f';
-            continue;
-        } else if(name[i] == 'G') {
-            name[i] = 'g';
-            continue;
-        } else if(name[i] == 'H') {
-            name[i] = 'h';
-            continue;
-        } else if(name[i] == 'I') {
-            name[i] = 'i';
-            continue;
-        } else if(name[i] == 'J') {
-            name[i] = 'j';
-            continue;
-        } else if(name[i] == 'K') {
-            name[i] = 'k';
-            continue;
-        } else if(name[i] == 'L') {
-            name[i] = 'l';
-            continue;
-        } else if(name[i] == 'M') {
-            name[i] = 'm';
-            continue;
-        } else if(name[i] == 'N') {
-            name[i] = 'n';
-            continue;
-        } else if(name[i] == 'O') {
-            name[i] = 'o';
-            continue;
-        } else if(name[i] == 'P') {
-            name[i] = 'p';
-            continue;
-        } else if(name[i] == 'Q') {
-            name[i] = 'q';
-            continue;
-        } else if(name[i] == 'R') {
-            name[i] = 'r';
-            continue;
-        } else if(name[i] == 'S') {
-            name[i] = 's';
-            continue;
-        } else if(name[i] == 'T') {
-            name[i] = 't';
-            continue;
-        } else if(name[i] == 'U') {
-            name[i] = 'u';
-            continue;
-        } else if(name[i] == 'V') {
-            name[i] = 'v';
-            continue;
-        } else if(name[i] == 'W') {
-            name[i] = 'w';
-            continue;
-        } else if(name[i] == 'X') {
-            name[i] = 'x';
-            continue;
-        } else if(name[i] == 'Y') {
-            name[i] = 'y';
-            continue;
-        } else if(name[i] == 'Z') {
-            name[i] = 'z';
-            continue;
+        
+        if(isupper(name[i])) {
+            name[i] = (char)tolower(name[i]);
         }
 
     }
